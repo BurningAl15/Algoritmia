@@ -3,27 +3,26 @@ using namespace std;
 
 int main()
 {
-int v1,v2;
+int v1,v2,total;
 
 cin >> v1 >> v2;
 
-if(v1 <0)
-{
-  v1*=-1;
-}
-if(v2<0)
-{
-  v2*=-1;
-}
-
 if(v1>v2)
 {
-    cout << v1%v2;
+    total=v1%v2;
 }
 else if(v1<v2)
 {
-    cout << v2%v2;
+    total=v2%v1;
 }
+
+if(total<0)
+{
+total*=-1;
+}
+
+cout << total;
+
 
 return 0;
 }

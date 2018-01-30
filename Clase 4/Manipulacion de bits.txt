@@ -1,0 +1,2 @@
+-Terminar p5
+-Hacer una función que modifique el "k" esimo bit a 0
